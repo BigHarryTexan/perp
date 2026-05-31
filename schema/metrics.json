@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Metric",
+  "description": "Represents quantification metadata used to strengthen achievements and bullets with measurable results.",
+  "type": "object",
+
+  "properties": {
+    "metric_id": {
+      "type": "string",
+      "description": "Unique identifier for this metric (UUID)."
+    },
+
+    "metric_type": {
+      "type": "string",
+      "description": "Type of metric (e.g., cost savings, time reduction, revenue increase, efficiency gain)."
+    },
+
+    "before_value": {
+      "type": ["number", "string", "null"],
+      "description": "Value before the improvement or action."
+    },
+
+    "after_value": {
+      "type": ["number", "string", "null"],
+      "description": "Value after the improvement or action."
+    },
+
+    "delta": {
+      "type": ["number", "string", "null"],
+      "description": "Difference between before and after values."
+    },
+
+    "timeframe": {
+      "type": ["string", "null"],
+      "description": "Time period over which the change occurred."
+    },
+
+    "confidence_level": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "Confidence in the accuracy of the metric."
+    },
+
+    "related_achievement_id": {
+      "type": ["string", "null"],
+      "description": "Optional link to the achievement this metric supports."
+    },
+
+    "related_bullet_id": {
+      "type": ["string", "null"],
+      "description": "Optional link to the bullet this metric supports."
+    }
+  },
+
+  "required": [
+    "metric_id",
+    "metric_type"
+  ]
+}

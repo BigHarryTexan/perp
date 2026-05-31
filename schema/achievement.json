@@ -1,0 +1,111 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Achievement",
+  "description": "Represents a quantifiable accomplishment tied to a specific experience entry.",
+  "type": "object",
+
+  "properties": {
+    "achievement_id": {
+      "type": "string",
+      "description": "Unique identifier for this achievement (UUID)."
+    },
+
+    "experience_id": {
+      "type": "string",
+      "description": "ID of the experience entry this achievement belongs to."
+    },
+
+    "category": {
+      "type": "string",
+      "enum": [
+        "leadership",
+        "technical",
+        "process",
+        "operations",
+        "transformation",
+        "governance",
+        "training",
+        "program_management"
+      ],
+      "description": "Classification of the achievement."
+    },
+
+    "situation": {
+      "type": "string",
+      "description": "Context or challenge that set the stage for the achievement (STAR: S)."
+    },
+
+    "task": {
+      "type": "string",
+      "description": "The responsibility or objective assigned (STAR: T)."
+    },
+
+    "action": {
+      "type": "string",
+      "description": "Actions taken to address the task (STAR: A)."
+    },
+
+    "result": {
+      "type": "string",
+      "description": "Outcome or impact of the action (STAR: R)."
+    },
+
+    "metrics": {
+      "type": "array",
+      "description": "Quantification details supporting the achievement.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "metric_type": { "type": "string" },
+          "before_value": { "type": ["number", "string", "null"] },
+          "after_value": { "type": ["number", "string", "null"] },
+          "delta": { "type": ["number", "string", "null"] },
+          "timeframe": { "type": ["string", "null"] }
+        },
+        "required": ["metric_type"]
+      }
+    },
+
+    "keywords": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Keywords mapped to job descriptions for tailoring."
+    },
+
+    "cross_cutting_links": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Links to cross-cutting themes (leadership, governance, etc.)."
+    },
+
+    "relevance_score": {
+      "type": "number",
+      "description": "Dynamically computed score used by the tailoring engine."
+    },
+
+    "impact_level": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "Subjective measure of impact."
+    },
+
+    "complexity_level": {
+      "type": "string",
+      "enum": ["low", "medium", "high"],
+      "description": "Subjective measure of complexity."
+    },
+
+    "story_id": {
+      "type": ["string", "null"],
+      "description": "Optional link to a narrative story object."
+    }
+  },
+
+  "required": [
+    "achievement_id",
+    "experience_id",
+    "category",
+    "action",
+    "result"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "CrossCuttingTheme",
+  "description": "Represents a thematic through-line that spans multiple experiences, achievements, and bullets.",
+  "type": "object",
+
+  "properties": {
+    "theme_id": {
+      "type": "string",
+      "description": "Unique identifier for this theme (UUID)."
+    },
+
+    "theme_name": {
+      "type": "string",
+      "description": "Human-readable name of the theme (e.g., 'Leadership & Influence')."
+    },
+
+    "description": {
+      "type": "string",
+      "description": "Short explanation of the theme and its relevance across roles."
+    },
+
+    "experience_links": {
+      "type": "array",
+      "description": "List of experience IDs that contribute to this theme.",
+      "items": { "type": "string" }
+    },
+
+    "achievement_links": {
+      "type": "array",
+      "description": "List of achievement IDs that reinforce this theme.",
+      "items": { "type": "string" }
+    },
+
+    "bullet_links": {
+      "type": "array",
+      "description": "List of bullet IDs that support this theme.",
+      "items": { "type": "string" }
+    },
+
+    "narrative_elements": {
+      "type": "array",
+      "description": "Optional narrative elements tied to this theme.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "story_id": { "type": "string" },
+          "summary": { "type": "string" }
+        },
+        "required": ["story_id"]
+      }
+    },
+
+    "keywords": {
+      "type": "array",
+      "description": "Keywords associated with this theme for ATS and matching.",
+      "items": { "type": "string" }
+    },
+
+    "relevance_weight": {
+      "type": "number",
+      "description": "Weight used by the tailoring engine to prioritize this theme."
+    }
+  },
+
+  "required": [
+    "theme_id",
+    "theme_name",
+    "description"
+  ]
+}

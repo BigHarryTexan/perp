@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Bullet",
+  "description": "Represents a reusable resume bullet tied to a specific experience entry.",
+  "type": "object",
+
+  "properties": {
+    "bullet_id": {
+      "type": "string",
+      "description": "Unique identifier for this bullet (UUID)."
+    },
+
+    "experience_id": {
+      "type": "string",
+      "description": "ID of the experience entry this bullet belongs to."
+    },
+
+    "bullet_text": {
+      "type": "string",
+      "description": "The full text of the resume bullet."
+    },
+
+    "category": {
+      "type": "string",
+      "enum": [
+        "leadership",
+        "technical",
+        "governance",
+        "delivery",
+        "operations",
+        "process_improvement",
+        "training",
+        "program_management"
+      ],
+      "description": "Classification of the bullet for filtering and assembly."
+    },
+
+    "skill_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Skill IDs or names associated with this bullet."
+    },
+
+    "quantification_flag": {
+      "type": "boolean",
+      "description": "Indicates whether the bullet contains quantifiable metrics."
+    },
+
+    "cross_cutting_links": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Links to cross-cutting themes (leadership, governance, etc.)."
+    },
+
+    "relevance_score": {
+      "type": "number",
+      "description": "Dynamically computed score used by the tailoring engine."
+    },
+
+    "rewrite_variants": {
+      "type": "array",
+      "description": "Alternate phrasings of the bullet for tone/length variations.",
+      "items": {
+        "type": "object",
+        "properties": {
+          "variant_id": { "type": "string" },
+          "tone": {
+            "type": "string",
+            "enum": ["executive", "technical", "operational", "leadership"]
+          },
+          "length": {
+            "type": "string",
+            "enum": ["short", "medium", "long"]
+          },
+          "text": { "type": "string" }
+        },
+        "required": ["variant_id", "text"]
+      }
+    },
+
+    "tone": {
+      "type": "string",
+      "enum": ["executive", "technical", "operational", "leadership"],
+      "description": "Primary tone of the bullet."
+    },
+
+    "length": {
+      "type": "string",
+      "enum": ["short", "medium", "long"],
+      "description": "Primary length classification of the bullet."
+    }
+  },
+
+  "required": [
+    "bullet_id",
+    "experience_id",
+    "bullet_text",
+    "category"
+  ]
+}

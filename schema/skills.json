@@ -1,0 +1,80 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Skill",
+  "description": "Represents a skill within the Perpetual Résumé taxonomy, including metadata, proficiency, and evidence links.",
+  "type": "object",
+
+  "properties": {
+    "skill_id": {
+      "type": "string",
+      "description": "Unique identifier for this skill (UUID)."
+    },
+
+    "skill_name": {
+      "type": "string",
+      "description": "Human-readable name of the skill."
+    },
+
+    "category": {
+      "type": "string",
+      "enum": [
+        "leadership_management",
+        "technical_engineering",
+        "process_governance_operations",
+        "communication_collaboration",
+        "domain_industry"
+      ],
+      "description": "Top-level taxonomy category."
+    },
+
+    "sub_category": {
+      "type": "string",
+      "description": "More specific classification within the category."
+    },
+
+    "description": {
+      "type": "string",
+      "description": "Short explanation of the skill and its context."
+    },
+
+    "proficiency_level": {
+      "type": "string",
+      "enum": ["beginner", "intermediate", "advanced", "expert"],
+      "description": "Self-assessed or system-derived proficiency level."
+    },
+
+    "usage_notes": {
+      "type": "string",
+      "description": "Optional notes describing how the skill was applied in real roles."
+    },
+
+    "evidence_links": {
+      "type": "array",
+      "description": "List of achievement or bullet IDs that demonstrate this skill.",
+      "items": { "type": "string" }
+    },
+
+    "keyword_variants": {
+      "type": "array",
+      "description": "Synonyms or alternate phrasing used for ATS matching.",
+      "items": { "type": "string" }
+    },
+
+    "relevance_weight": {
+      "type": "number",
+      "description": "Weight used by the tailoring engine to prioritize this skill."
+    },
+
+    "last_used_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "Optional date indicating when the skill was last applied."
+    }
+  },
+
+  "required": [
+    "skill_id",
+    "skill_name",
+    "category"
+  ]
+}

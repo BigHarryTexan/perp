@@ -1,0 +1,108 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ExperienceEntry",
+  "description": "Represents a single job, role, or position in the user's career history.",
+  "type": "object",
+
+  "properties": {
+    "experience_id": {
+      "type": "string",
+      "description": "Unique identifier for this experience entry (UUID)."
+    },
+    "employer_name": {
+      "type": "string",
+      "description": "Name of the employer as written on the resume."
+    },
+    "employer_normalized": {
+      "type": "string",
+      "description": "Canonical employer name for deduplication and search."
+    },
+    "location_city": { "type": "string" },
+    "location_state": { "type": "string" },
+    "location_country": { "type": "string" },
+
+    "job_title": {
+      "type": "string",
+      "description": "Title held at the employer."
+    },
+    "job_title_normalized": {
+      "type": "string",
+      "description": "Canonical job title for search and matching."
+    },
+
+    "start_date": {
+      "type": "string",
+      "format": "date",
+      "description": "Start date of the role."
+    },
+    "end_date": {
+      "type": ["string", "null"],
+      "format": "date",
+      "description": "End date of the role, or null if current."
+    },
+
+    "employment_type": {
+      "type": "string",
+      "enum": ["full-time", "part-time", "contract", "consulting", "military", "fractional"],
+      "description": "Type of employment."
+    },
+
+    "industry_tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Industry or domain tags for classification."
+    },
+
+    "role_summary": {
+      "type": "string",
+      "description": "2–3 sentence summary of the role."
+    },
+
+    "cross_cutting_links": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "References to cross-cutting themes."
+    },
+
+    "achievements": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of achievement IDs associated with this role."
+    },
+
+    "bullets": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of bullet IDs associated with this role."
+    },
+
+    "skills_used": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Skill IDs used in this role."
+    },
+
+    "role_narrative_id": {
+      "type": ["string", "null"],
+      "description": "Optional link to a narrative story object."
+    },
+
+    "version": {
+      "type": "integer",
+      "description": "Version number for auditability."
+    },
+
+    "last_updated": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Timestamp of last update."
+    }
+  },
+
+  "required": [
+    "experience_id",
+    "employer_name",
+    "job_title",
+    "start_date"
+  ]
+}
