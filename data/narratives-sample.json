@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NarrativeElement",
+  "description": "Represents a long-form narrative asset used for cover letters, leadership summaries, STAR stories, and interview preparation.",
+  "type": "object",
+
+  "properties": {
+    "story_id": {
+      "type": "string",
+      "description": "Unique identifier for this narrative element (UUID)."
+    },
+
+    "experience_id": {
+      "type": ["string", "null"],
+      "description": "Optional link to the experience entry this narrative belongs to."
+    },
+
+    "theme_links": {
+      "type": "array",
+      "description": "Cross-cutting themes reinforced by this narrative.",
+      "items": { "type": "string" }
+    },
+
+    "key_challenge": {
+      "type": "string",
+      "description": "The central challenge or problem faced in this story."
+    },
+
+    "key_win": {
+      "type": "string",
+      "description": "The major success or outcome achieved."
+    },
+
+    "lessons_learned": {
+      "type": "string",
+      "description": "Insights or takeaways gained from the experience."
+    },
+
+    "leadership_moment": {
+      "type": "string",
+      "description": "A moment demonstrating leadership, influence, or decision-making."
+    },
+
+    "transformation_story": {
+      "type": "string",
+      "description": "A longer-form narrative describing a transformation, turnaround, or major initiative."
+    },
+
+    "long_form_narrative": {
+      "type": "string",
+      "description": "Full prose narrative used for cover letters, summaries, or interview prep."
+    },
+
+    "related_achievements": {
+      "type": "array",
+      "description": "Achievement IDs that support or relate to this narrative.",
+      "items": { "type": "string" }
+    },
+
+    "keywords": {
+      "type": "array",
+      "description": "Keywords associated with this narrative for ATS and thematic matching.",
+      "items": { "type": "string" }
+    },
+
+    "relevance_weight": {
+      "type": "number",
+      "description": "Weight used by the tailoring engine to prioritize this narrative."
+    }
+  },
+
+  "required": [
+    "story_id"
+  ]
+}

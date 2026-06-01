@@ -1,0 +1,144 @@
+{
+  "achievement_id": "ach-0001",
+  "experience_id": "exp-0001",
+  "category": "operations",
+  "situation": "The ship’s damage control readiness reporting was inconsistent and often delayed.",
+  "task": "Improve accuracy and timeliness of readiness documentation.",
+  "action": "Redesigned the reporting workflow, consolidated redundant logs, and implemented a structured dBase-driven tracking system.",
+  "result": "Increased reporting accuracy and reduced submission delays across all divisions.",
+  "metrics": [
+    {
+      "metric_type": "reporting_accuracy",
+      "before_value": "72%",
+      "after_value": "98%",
+      "delta": "26%",
+      "timeframe": "6 months"
+    }
+  ],
+  "keywords": ["readiness", "documentation", "process improvement"],
+  "cross_cutting_links": ["theme-governance"],
+  "relevance_score": 0.92,
+  "impact_level": "high",
+  "complexity_level": "medium",
+  "story_id": "story-0001"
+}
+{
+  "achievement_id": "ach-0002",
+  "experience_id": "exp-0001",
+  "category": "training",
+  "situation": "New sailors struggled to understand the ship’s damage control administrative requirements.",
+  "task": "Create a training program to onboard new personnel.",
+  "action": "Developed a structured training module and delivered hands-on sessions for new crew members.",
+  "result": "Improved qualification rates and reduced onboarding time.",
+  "metrics": [
+    {
+      "metric_type": "qualification_rate",
+      "before_value": "65%",
+      "after_value": "90%",
+      "delta": "25%",
+      "timeframe": "3 months"
+    }
+  ],
+  "keywords": ["training", "onboarding", "readiness"],
+  "cross_cutting_links": ["theme-training"],
+  "relevance_score": 0.88,
+  "impact_level": "medium",
+  "complexity_level": "medium",
+  "story_id": "story-0001"
+}
+{
+  "achievement_id": "ach-0101",
+  "experience_id": "exp-0002",
+  "category": "operations",
+  "situation": "The SaaS platform experienced recurring incidents impacting enterprise customers.",
+  "task": "Stabilize operations and reduce incident volume.",
+  "action": "Implemented SRE practices, introduced automated health checks, and restructured on-call processes.",
+  "result": "Significantly reduced incident frequency and improved customer satisfaction.",
+  "metrics": [
+    {
+      "metric_type": "incident_reduction",
+      "before_value": 42,
+      "after_value": 18,
+      "delta": 24,
+      "timeframe": "12 months"
+    }
+  ],
+  "keywords": ["SRE", "incident management", "automation"],
+  "cross_cutting_links": ["theme-automation", "theme-governance"],
+  "relevance_score": 0.95,
+  "impact_level": "high",
+  "complexity_level": "high",
+  "story_id": "story-0101"
+}
+{
+  "achievement_id": "ach-0102",
+  "experience_id": "exp-0002",
+  "category": "leadership",
+  "situation": "Customer onboarding lacked consistency, leading to churn risk.",
+  "task": "Create a standardized onboarding framework.",
+  "action": "Developed a cross-functional onboarding playbook and trained CSMs and technical teams.",
+  "result": "Improved onboarding efficiency and reduced time-to-value for enterprise clients.",
+  "metrics": [
+    {
+      "metric_type": "time_to_value",
+      "before_value": "45 days",
+      "after_value": "21 days",
+      "delta": "24 days",
+      "timeframe": "6 months"
+    }
+  ],
+  "keywords": ["customer success", "leadership", "onboarding"],
+  "cross_cutting_links": ["theme-leadership"],
+  "relevance_score": 0.91,
+  "impact_level": "high",
+  "complexity_level": "medium",
+  "story_id": "story-0101"
+}
+{
+  "achievement_id": "ach-0201",
+  "experience_id": "exp-0003",
+  "category": "transformation",
+  "situation": "A major ERP rollout faced resistance from business units.",
+  "task": "Increase adoption and reduce resistance.",
+  "action": "Developed a stakeholder engagement plan, created targeted communications, and facilitated readiness workshops.",
+  "result": "Improved adoption rates and reduced resistance across key departments.",
+  "metrics": [
+    {
+      "metric_type": "adoption_rate",
+      "before_value": "40%",
+      "after_value": "85%",
+      "delta": "45%",
+      "timeframe": "4 months"
+    }
+  ],
+  "keywords": ["change management", "stakeholder engagement", "ERP"],
+  "cross_cutting_links": ["theme-transformation"],
+  "relevance_score": 0.89,
+  "impact_level": "high",
+  "complexity_level": "high",
+  "story_id": "story-0201"
+}
+{
+  "achievement_id": "ach-0202",
+  "experience_id": "exp-0003",
+  "category": "training",
+  "situation": "Users were unprepared for new workflows introduced by the ERP system.",
+  "task": "Develop and deliver training.",
+  "action": "Created role-based training modules and facilitated hands-on sessions for end users.",
+  "result": "Increased user proficiency and reduced support tickets post-launch.",
+  "metrics": [
+    {
+      "metric_type": "support_ticket_reduction",
+      "before_value": 120,
+      "after_value": 55,
+      "delta": 65,
+      "timeframe": "2 months"
+    }
+  ],
+  "keywords": ["training", "ERP", "OCM"],
+  "cross_cutting_links": ["theme-training"],
+  "relevance_score": 0.87,
+  "impact_level": "medium",
+  "complexity_level": "medium",
+  "story_id": "story-0201"
+}

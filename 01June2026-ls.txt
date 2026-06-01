@@ -1,0 +1,317 @@
+.:
+total 44K
+drwxrwxrwx+ 7 codespace root      4.0K Jun  1 19:11 .
+drwxr-xrwx+ 5 codespace root      4.0K May 31 19:43 ..
+drwxrwxrwx+ 8 codespace root      4.0K May 31 20:34 .git
+-rw-rw-rw-  1 codespace codespace    0 Jun  1 19:11 01June2026-ls.txt
+-rw-rw-rw-  1 codespace codespace  12K May 31 20:13 LICENSE
+-rw-rw-rw-  1 codespace root      2.4K May 31 20:05 README.md
+drwxrwxrwx+ 2 codespace codespace 4.0K May 31 20:54 data
+drwxrwxrwx+ 2 codespace codespace 4.0K May 31 19:48 docs
+drwxrwxrwx+ 2 codespace codespace 4.0K May 31 20:31 schema
+drwxrwxrwx+ 2 codespace codespace 4.0K May 31 19:47 src
+
+./.git:
+total 60K
+drwxrwxrwx+  8 codespace root      4.0K May 31 20:34 .
+drwxrwxrwx+  7 codespace root      4.0K Jun  1 19:11 ..
+-rw-rw-rw-   1 codespace codespace  102 May 31 20:34 COMMIT_EDITMSG
+-rw-rw-rw-   1 codespace root        97 May 31 19:43 FETCH_HEAD
+-rw-rw-rw-   1 codespace root        21 May 31 19:43 HEAD
+-rw-rw-rw-   1 codespace codespace  401 May 31 20:16 config
+-rw-rw-rw-   1 codespace root        73 May 31 19:43 description
+drwxrwxrwx+  2 codespace root      4.0K May 31 19:43 hooks
+-rw-rw-rw-   1 codespace codespace  872 May 31 20:34 index
+drwxrwxrwx+  2 codespace root      4.0K May 31 19:43 info
+drwxr-xr-x+  4 codespace codespace 4.0K May 31 20:16 lfs
+drwxrwxrwx+  3 codespace root      4.0K May 31 19:43 logs
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 objects
+-rw-rw-rw-   1 codespace root       112 May 31 19:43 packed-refs
+drwxrwxrwx+  5 codespace root      4.0K May 31 19:43 refs
+
+./.git/hooks:
+total 88K
+drwxrwxrwx+ 2 codespace root      4.0K May 31 19:43 .
+drwxrwxrwx+ 8 codespace root      4.0K May 31 20:34 ..
+-rwxrwxrwx  1 codespace root       478 May 31 19:43 applypatch-msg.sample
+-rwxrwxrwx  1 codespace root       896 May 31 19:43 commit-msg.sample
+-rwxrwxrwx  1 codespace root      4.7K May 31 19:43 fsmonitor-watchman.sample
+-rwxr-xr-x  1 codespace codespace  360 May 31 19:43 post-checkout
+-rwxr-xr-x  1 codespace codespace  356 May 31 19:43 post-commit
+-rwxr-xr-x  1 codespace codespace  354 May 31 19:43 post-merge
+-rwxrwxrwx  1 codespace root       189 May 31 19:43 post-update.sample
+-rwxrwxrwx  1 codespace root       424 May 31 19:43 pre-applypatch.sample
+-rwxrwxrwx  1 codespace root      1.7K May 31 19:43 pre-commit.sample
+-rwxrwxrwx  1 codespace root       416 May 31 19:43 pre-merge-commit.sample
+-rwxr-xr-x  1 codespace codespace  350 May 31 19:43 pre-push
+-rwxrwxrwx  1 codespace root      1.4K May 31 19:43 pre-push.sample
+-rwxrwxrwx  1 codespace root      4.8K May 31 19:43 pre-rebase.sample
+-rwxrwxrwx  1 codespace root       544 May 31 19:43 pre-receive.sample
+-rwxrwxrwx  1 codespace root      1.5K May 31 19:43 prepare-commit-msg.sample
+-rwxrwxrwx  1 codespace root      2.8K May 31 19:43 push-to-checkout.sample
+-rwxrwxrwx  1 codespace root      2.3K May 31 19:43 sendemail-validate.sample
+-rwxrwxrwx  1 codespace root      3.6K May 31 19:43 update.sample
+
+./.git/info:
+total 12K
+drwxrwxrwx+ 2 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 8 codespace root 4.0K May 31 20:34 ..
+-rw-rw-rw-  1 codespace root  240 May 31 19:43 exclude
+
+./.git/lfs:
+total 16K
+drwxr-xr-x+ 4 codespace codespace 4.0K May 31 20:16 .
+drwxrwxrwx+ 8 codespace root      4.0K May 31 20:34 ..
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 cache
+drwxr-xr-x+ 2 codespace codespace 4.0K May 31 19:43 tmp
+
+./.git/lfs/cache:
+total 12K
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 .
+drwxr-xr-x+ 4 codespace codespace 4.0K May 31 20:16 ..
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 locks
+
+./.git/lfs/cache/locks:
+total 12K
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 .
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 ..
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 refs
+
+./.git/lfs/cache/locks/refs:
+total 12K
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 .
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 ..
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 heads
+
+./.git/lfs/cache/locks/refs/heads:
+total 12K
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 .
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 ..
+drwxr-xr-x+ 2 codespace codespace 4.0K May 31 20:16 main
+
+./.git/lfs/cache/locks/refs/heads/main:
+total 12K
+drwxr-xr-x+ 2 codespace codespace 4.0K May 31 20:16 .
+drwxr-xr-x+ 3 codespace codespace 4.0K May 31 20:16 ..
+-rw-rw-rw-  1 codespace codespace   24 May 31 20:34 verifiable
+
+./.git/lfs/tmp:
+total 8.0K
+drwxr-xr-x+ 2 codespace codespace 4.0K May 31 19:43 .
+drwxr-xr-x+ 4 codespace codespace 4.0K May 31 20:16 ..
+
+./.git/logs:
+total 16K
+drwxrwxrwx+ 3 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 8 codespace root 4.0K May 31 20:34 ..
+-rw-rw-rw-  1 codespace root  756 May 31 20:34 HEAD
+drwxrwxrwx+ 4 codespace root 4.0K May 31 19:43 refs
+
+./.git/logs/refs:
+total 16K
+drwxrwxrwx+ 4 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 3 codespace root 4.0K May 31 19:43 ..
+drwxrwxrwx+ 2 codespace root 4.0K May 31 19:43 heads
+drwxrwxrwx+ 3 codespace root 4.0K May 31 19:43 remotes
+
+./.git/logs/refs/heads:
+total 12K
+drwxrwxrwx+ 2 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 4 codespace root 4.0K May 31 19:43 ..
+-rw-rw-rw-  1 codespace root  756 May 31 20:34 main
+
+./.git/logs/refs/remotes:
+total 12K
+drwxrwxrwx+ 3 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 4 codespace root 4.0K May 31 19:43 ..
+drwxrwxrwx+ 2 codespace root 4.0K May 31 20:16 origin
+
+./.git/logs/refs/remotes/origin:
+total 16K
+drwxrwxrwx+ 2 codespace root      4.0K May 31 20:16 .
+drwxrwxrwx+ 3 codespace root      4.0K May 31 19:43 ..
+-rw-rw-rw-  1 codespace root       208 May 31 19:43 HEAD
+-rw-rw-rw-  1 codespace codespace  356 May 31 20:34 main
+
+./.git/objects:
+total 72K
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 .
+drwxrwxrwx+  8 codespace root      4.0K May 31 20:34 ..
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 21
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 23
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 38
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 39
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 42
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 4c
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 6e
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:16 a7
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:16 ba
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 c9
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 ce
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:16 e6
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:14 ed
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 f8
+drwxrwxrwx+  2 codespace root      4.0K May 31 19:43 info
+drwxrwxrwx+  2 codespace root      4.0K May 31 19:43 pack
+
+./.git/objects/21:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  791 May 31 20:34 bfbbe5e6314d5cbc090b6ba1d4055fad849adb
+
+./.git/objects/23:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  955 May 31 20:34 88038f79065f0b13ccddeb3a42f5b3d57475b0
+
+./.git/objects/38:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  868 May 31 20:34 00edeae5ba8470e7d9065bd412a94f943032cd
+
+./.git/objects/39:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  912 May 31 20:34 008210f0f0801c3ef3bd454dabd596a155f887
+
+./.git/objects/42:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace   86 May 31 20:34 2041559e5eb8d4584fd7b146df2353d3ddd762
+
+./.git/objects/4c:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  244 May 31 20:34 64c825f8b554bd90313f1ac53e5847a5ffdd81
+
+./.git/objects/6e:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  289 May 31 20:34 593e8d76565fe57fb553096dce02da1afd9d67
+
+./.git/objects/a7:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:16 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace   86 May 31 20:16 8ae29acfec8aeb0e4eda2df185bc09b2d8470d
+
+./.git/objects/ba:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:16 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  217 May 31 20:16 15eabbf9c1befa29a6822846958026f447c304
+
+./.git/objects/c9:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  657 May 31 20:34 d48010aff48af19dc78249c0fbdf779b951be0
+
+./.git/objects/ce:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  855 May 31 20:34 5500b312265f88765b1c5cc3e97dd7821e2d48
+
+./.git/objects/e6:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:16 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace   59 May 31 20:16 acde6ed03b431b890290173364b73ef7e18095
+
+./.git/objects/ed:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:14 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace 1.7K May 31 20:14 45d01f065430247dfdd432405fe2a243e1a51d
+
+./.git/objects/f8:
+total 12K
+drwxrwxrwx+  2 codespace codespace 4.0K May 31 20:34 .
+drwxrwxrwx+ 18 codespace root      4.0K May 31 20:34 ..
+-r--r--r--   1 codespace codespace  599 May 31 20:34 c388a083fa2a920a5a6a5dac5d8ee8394fe09a
+
+./.git/objects/info:
+total 8.0K
+drwxrwxrwx+  2 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 18 codespace root 4.0K May 31 20:34 ..
+
+./.git/objects/pack:
+total 20K
+drwxrwxrwx+  2 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 18 codespace root 4.0K May 31 20:34 ..
+-r--r--r--   1 codespace root 1.2K May 31 19:43 pack-2949df60c79f8284322f9fbf47ec1e0a6acf2b77.idx
+-r--r--r--   1 codespace root  916 May 31 19:43 pack-2949df60c79f8284322f9fbf47ec1e0a6acf2b77.pack
+-r--r--r--   1 codespace root   64 May 31 19:43 pack-2949df60c79f8284322f9fbf47ec1e0a6acf2b77.rev
+
+./.git/refs:
+total 20K
+drwxrwxrwx+ 5 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 8 codespace root 4.0K May 31 20:34 ..
+drwxrwxrwx+ 2 codespace root 4.0K May 31 20:34 heads
+drwxrwxrwx+ 3 codespace root 4.0K May 31 19:43 remotes
+drwxrwxrwx+ 2 codespace root 4.0K May 31 19:43 tags
+
+./.git/refs/heads:
+total 12K
+drwxrwxrwx+ 2 codespace root      4.0K May 31 20:34 .
+drwxrwxrwx+ 5 codespace root      4.0K May 31 19:43 ..
+-rw-rw-rw-  1 codespace codespace   41 May 31 20:34 main
+
+./.git/refs/remotes:
+total 12K
+drwxrwxrwx+ 3 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 5 codespace root 4.0K May 31 19:43 ..
+drwxrwxrwx+ 2 codespace root 4.0K May 31 20:34 origin
+
+./.git/refs/remotes/origin:
+total 16K
+drwxrwxrwx+ 2 codespace root      4.0K May 31 20:34 .
+drwxrwxrwx+ 3 codespace root      4.0K May 31 19:43 ..
+-rw-rw-rw-  1 codespace root        30 May 31 19:43 HEAD
+-rw-rw-rw-  1 codespace codespace   41 May 31 20:34 main
+
+./.git/refs/tags:
+total 8.0K
+drwxrwxrwx+ 2 codespace root 4.0K May 31 19:43 .
+drwxrwxrwx+ 5 codespace root 4.0K May 31 19:43 ..
+
+./data:
+total 40K
+drwxrwxrwx+ 2 codespace codespace 4.0K May 31 20:54 .
+drwxrwxrwx+ 7 codespace root      4.0K Jun  1 19:11 ..
+-rw-rw-rw-  1 codespace codespace 5.1K May 31 20:43 achievement-sample.json
+-rw-rw-rw-  1 codespace codespace 5.5K May 31 20:49 bullet-sample.json
+-rw-rw-rw-  1 codespace codespace 3.3K May 31 20:40 experience-sample.json
+-rw-rw-rw-  1 codespace codespace 2.1K Jun  1 19:00 narratives-sample.json
+-rw-rw-rw-  1 codespace codespace 6.3K May 31 20:54 skills-sample.json
+
+./docs:
+total 8.0K
+drwxrwxrwx+ 2 codespace codespace 4.0K May 31 19:48 .
+drwxrwxrwx+ 7 codespace root      4.0K Jun  1 19:11 ..
+
+./schema:
+total 40K
+drwxrwxrwx+ 2 codespace codespace 4.0K May 31 20:31 .
+drwxrwxrwx+ 7 codespace root      4.0K Jun  1 19:11 ..
+-rw-rw-rw-  1 codespace codespace 2.8K May 31 20:28 achievement.json
+-rw-rw-rw-  1 codespace codespace 2.6K May 31 20:29 bullet.json
+-rw-rw-rw-  1 codespace codespace 2.8K May 31 20:27 experience.json
+-rw-rw-rw-  1 codespace codespace 1.6K May 31 20:31 metrics.json
+-rw-rw-rw-  1 codespace codespace 2.1K May 31 20:31 narratives.json
+-rw-rw-rw-  1 codespace codespace 4.0K May 31 20:03 perp-schema.md
+-rw-rw-rw-  1 codespace codespace 2.1K May 31 20:29 skills.json
+-rw-rw-rw-  1 codespace codespace 1.9K May 31 20:30 themes.json
+
+./src:
+total 8.0K
+drwxrwxrwx+ 2 codespace codespace 4.0K May 31 19:47 .
+drwxrwxrwx+ 7 codespace root      4.0K Jun  1 19:11 ..

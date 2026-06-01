@@ -1,0 +1,159 @@
+[
+  {
+    "bullet_id": "bul-0001",
+    "experience_id": "exp-0001",
+    "bullet_text": "Redesigned shipboard damage control reporting workflows, improving accuracy and reducing delays across all divisions.",
+    "category": "operations",
+    "skill_tags": ["skill-dbase", "skill-admin"],
+    "quantification_flag": true,
+    "cross_cutting_links": ["theme-governance"],
+    "relevance_score": 0.90,
+    "tone": "operational",
+    "length": "medium",
+    "rewrite_variants": [
+      {
+        "variant_id": "bul-0001-exec",
+        "tone": "executive",
+        "length": "short",
+        "text": "Improved shipboard readiness reporting accuracy and timeliness."
+      },
+      {
+        "variant_id": "bul-0001-long",
+        "tone": "operational",
+        "length": "long",
+        "text": "Overhauled damage control reporting workflows by consolidating redundant logs and implementing a structured dBase-driven system, significantly improving accuracy and reducing delays."
+      }
+    ]
+  },
+  {
+    "bullet_id": "bul-0002",
+    "experience_id": "exp-0001",
+    "bullet_text": "Developed and delivered training modules that increased qualification rates for new sailors.",
+    "category": "training",
+    "skill_tags": ["skill-training", "skill-communication"],
+    "quantification_flag": true,
+    "cross_cutting_links": ["theme-training"],
+    "relevance_score": 0.87,
+    "tone": "leadership",
+    "length": "medium",
+    "rewrite_variants": [
+      {
+        "variant_id": "bul-0002-short",
+        "tone": "executive",
+        "length": "short",
+        "text": "Improved sailor qualification rates through structured training."
+      }
+    ]
+  },
+  {
+    "bullet_id": "bul-0003",
+    "experience_id": "exp-0001",
+    "bullet_text": "Maintained personnel records and readiness documentation for a forward-deployed naval vessel.",
+    "category": "governance",
+    "skill_tags": ["skill-admin"],
+    "quantification_flag": false,
+    "cross_cutting_links": ["theme-governance"],
+    "relevance_score": 0.82,
+    "tone": "operational",
+    "length": "medium",
+    "rewrite_variants": []
+  },
+  {
+    "bullet_id": "bul-0101",
+    "experience_id": "exp-0002",
+    "bullet_text": "Implemented SRE practices and automated health checks, reducing incident volume and improving platform stability.",
+    "category": "operations",
+    "skill_tags": ["skill-sre", "skill-automation"],
+    "quantification_flag": true,
+    "cross_cutting_links": ["theme-automation"],
+    "relevance_score": 0.95,
+    "tone": "technical",
+    "length": "medium",
+    "rewrite_variants": [
+      {
+        "variant_id": "bul-0101-exec",
+        "tone": "executive",
+        "length": "short",
+        "text": "Reduced incidents and improved platform stability through SRE automation."
+      }
+    ]
+  },
+  {
+    "bullet_id": "bul-0102",
+    "experience_id": "exp-0002",
+    "bullet_text": "Created a standardized onboarding playbook that improved customer time-to-value and reduced churn risk.",
+    "category": "leadership",
+    "skill_tags": ["skill-customer-success", "skill-communication"],
+    "quantification_flag": true,
+    "cross_cutting_links": ["theme-leadership"],
+    "relevance_score": 0.92,
+    "tone": "leadership",
+    "length": "medium",
+    "rewrite_variants": []
+  },
+  {
+    "bullet_id": "bul-0103",
+    "experience_id": "exp-0002",
+    "bullet_text": "Led cross-functional teams through incident response improvements, enhancing coordination and reducing resolution times.",
+    "category": "leadership",
+    "skill_tags": ["skill-itil", "skill-communication"],
+    "quantification_flag": true,
+    "cross_cutting_links": ["theme-governance"],
+    "relevance_score": 0.89,
+    "tone": "leadership",
+    "length": "medium",
+    "rewrite_variants": []
+  },
+  {
+    "bullet_id": "bul-0104",
+    "experience_id": "exp-0002",
+    "bullet_text": "Partnered with enterprise customers to align technical solutions with business outcomes, strengthening long-term relationships.",
+    "category": "program_management",
+    "skill_tags": ["skill-customer-success"],
+    "quantification_flag": false,
+    "cross_cutting_links": ["theme-leadership"],
+    "relevance_score": 0.84,
+    "tone": "executive",
+    "length": "medium",
+    "rewrite_variants": []
+  },
+  {
+    "bullet_id": "bul-0201",
+    "experience_id": "exp-0003",
+    "bullet_text": "Developed stakeholder engagement strategies that increased adoption of new ERP workflows.",
+    "category": "transformation",
+    "skill_tags": ["skill-ocm", "skill-communication"],
+    "quantification_flag": true,
+    "cross_cutting_links": ["theme-transformation"],
+    "relevance_score": 0.90,
+    "tone": "leadership",
+    "length": "medium",
+    "rewrite_variants": []
+  },
+  {
+    "bullet_id": "bul-0202",
+    "experience_id": "exp-0003",
+    "bullet_text": "Created role-based training modules that improved user proficiency and reduced support tickets.",
+    "category": "training",
+    "skill_tags": ["skill-training"],
+    "quantification_flag": true,
+    "cross_cutting_links": ["theme-training"],
+    "relevance_score": 0.88,
+    "tone": "operational",
+    "length": "medium",
+    "rewrite_variants": []
+  },
+  {
+    "bullet_id": "bul-0203",
+    "experience_id": "exp-0003",
+    "bullet_text": "Facilitated readiness workshops to prepare business units for ERP rollout.",
+    "category": "process_improvement",
+    "skill_tags": ["skill-ocm", "skill-training"],
+    "quantification_flag": false,
+    "cross_cutting_links": ["theme-governance"],
+    "relevance_score": 0.83,
+    "tone": "operational",
+    "length": "medium",
+    "rewrite_variants": []
+  }
+]
