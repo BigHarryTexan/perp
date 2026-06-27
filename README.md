@@ -1,59 +1,103 @@
-> **Public Notice**  
-> This repository contains the *public framework* for the Perpetual Résumé system.  
-> It includes schemas, documentation, and structural components only.  
-> It does **not** contain any personal, private, or proprietary career data.  
+> **Public Notice**
+> This repository contains the *public framework* for the Perpetual Résumé system.
+> It includes schemas, documentation, and structural components only.
+> It does **not** contain any personal, private, or proprietary career data.
 > All real résumé content is maintained in a **separate private repository**.
-Perpetual Résumé — Public Framework
-The Perpetual Résumé is a structured, long‑term career system designed to replace the traditional résumé with something more powerful, more flexible, and more accurate over time. Instead of rewriting your résumé for every job, the Perp acts as a single source of truth for your entire career — roles, skills, outcomes, projects, artifacts, and narrative elements — all stored in a clean, queryable structure.
 
-This repository contains the public, open‑source framework for that system:
+# Perpetual Résumé — Public Framework
 
-The schema that defines how career data is structured
+The Perpetual Résumé is a structured, long-term career system designed to replace the traditional résumé with something more powerful, more flexible, and more accurate over time. Instead of rewriting your résumé for every job, the Perp acts as a single source of truth for your entire career — roles, skills, outcomes, projects, STAR stories, and narrative elements — all stored in a clean, queryable structure.
 
-The documentation that explains how the system works
+---
 
-The project layout used to generate tailored résumé outputs
+## 🚀 Quick Start (GitHub Pages)
 
-The foundational components needed to extend or customize the system
+This repo is designed to run as a static site on GitHub Pages — no server, no backend, no cost.
 
-No personal data is stored here. This repo is safe for collaboration, forking, and long‑term evolution.
+**Enable GitHub Pages:**
+1. Go to your repo → **Settings** → **Pages**
+2. Set Source to `main` branch, `/ (root)` folder
+3. Save — your site will be live at `https://yourusername.github.io/perp`
 
-🧠 What the Perpetual Résumé Solves
-Traditional résumés are static, brittle, and constantly rewritten. The Perp solves that by:
+**Run locally:**
+```bash
+# Python 3
+python3 -m http.server 8080
 
-Maintaining a living archive of your entire career
+# Node
+npx serve .
+```
+Then open `http://localhost:8080`
 
-Separating data from presentation
+---
 
-Allowing multiple résumé “views” (executive, technical, leadership, etc.)
+## 📁 Repository Structure
 
-Making achievements and outcomes searchable and reusable
+```
+perp/
+├── index.html          ← Main app: viewer + free-tier entry form
+├── data/
+│   ├── person.json     ← Your profile (name, location, education, certs)
+│   ├── experiences.json← Your complete career history
+│   └── *-sample.json   ← Example data matching each schema
+├── schema/
+│   ├── perp-schema.md  ← Full schema documentation
+│   ├── experience.json ← JSON Schema: experience entries
+│   ├── achievement.json← JSON Schema: achievements
+│   ├── bullet.json     ← JSON Schema: resume bullets
+│   ├── narratives.json ← JSON Schema: STAR stories & narratives
+│   ├── skills.json     ← JSON Schema: skills inventory
+│   ├── metrics.json    ← JSON Schema: quantified metrics
+│   └── themes.json     ← JSON Schema: cross-cutting themes
+└── README.md
+```
 
-Eliminating the blank‑page problem forever
+---
 
-It’s not a résumé generator — it’s a career operating system.
+## 🗂️ How to Use
 
-🗂️ Repository Structure
-A quick overview of what’s inside:
+### The Free Tier (live now)
 
-schema — the data model for experiences, skills, projects, outcomes, and artifacts
+The app has three sections:
 
-docs — conceptual documentation and design notes
+**View Perp** — Renders `data/experiences.json` and `data/person.json` as a formatted reverse-chronological résumé with collapsible detail sections and STAR story cards.
 
-src — future home for UI, templates, or automation tools
+**Add Entry** — A form to capture a new role: company, title, dates, employment type, role summary, responsibilities, achievements, and STAR stories. Exports as a JSON file you can add to `data/experiences.json`.
 
-README.md — this file
+**About** — Explains the three tiers and the philosophy behind the Perp.
 
-Each folder is intentionally modular so the system can grow without breaking.
+### Adding your own data
 
-🛠️ How This Repo Is Intended to Be Used
-This public repo is designed for:
+1. Edit `data/person.json` with your name, location, education, and certifications.
+2. Replace `data/experiences.json` with your career history, or use the **Add Entry** form to generate individual entries.
+3. Push to GitHub — your Perp is live.
 
-Developers building tools on top of the Perp
+---
 
-Career professionals exploring structured résumé systems
+## 🧠 What the Perpetual Résumé Solves
 
-Anyone wanting a reusable, future‑proof career framework
+Traditional résumés are static, brittle, and constantly rewritten from memory. The Perp solves that by:
 
-Your own private Perp data repo (which you’ll maintain separately)# perp
-Homepage of the Perpetual Resume
+- Maintaining a living archive of your entire career
+- Capturing STAR stories while memories are fresh
+- Separating data from presentation
+- Making achievements and outcomes searchable and reusable
+- Eliminating the blank-page problem — forever
+
+It's not a résumé generator. It's a career operating system.
+
+---
+
+## 🛤️ Roadmap
+
+| Tier | Status | Description |
+|------|--------|-------------|
+| **Free** | ✅ Live | Entry form, local JSON export, viewer |
+| **Subscription** | 🔜 Planned | AI-tailored résumé generation from job description |
+| **Book** | 🔜 Planned | One-year subscription included with book purchase |
+
+---
+
+## 📄 License
+
+Apache 2.0 — see [LICENSE](LICENSE)
