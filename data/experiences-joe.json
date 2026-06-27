@@ -1,0 +1,121 @@
+[
+  {
+    "experience_id": "exp-joe-001",
+    "employer_name": "TriState HomeCare Supply",
+    "job_title": "Sales Representative — Durable Medical Equipment",
+    "start_date": "2003",
+    "end_date": "2005",
+    "employment_type": "full-time",
+    "industry_tags": ["healthcare", "medical-sales", "DME"],
+    "role_summary": "Sold durable medical equipment to home health agencies, SNFs, and outpatient rehab centers, building referral relationships with physicians and case managers across San Antonio.",
+    "bullets": [
+      "Sold DME products to home health agencies, SNFs, and outpatient rehab centers",
+      "Built referral relationships with physicians and case managers",
+      "Provided patient-level product education",
+      "Implemented a referral-tracking system still used by the company today"
+    ],
+    "achievements": [
+      "Exceeded quota by 118% in first full year",
+      "Expanded territory revenue by 41%",
+      "Implemented a referral-tracking system still in use after departure"
+    ],
+    "star_stories": []
+  },
+  {
+    "experience_id": "exp-joe-002",
+    "employer_name": "Clinisoft Health Systems",
+    "job_title": "Account Executive — Medical Software Solutions",
+    "start_date": "2005",
+    "end_date": "2011",
+    "employment_type": "full-time",
+    "industry_tags": ["healthcare", "SaaS", "EMR", "clinical-workflow"],
+    "role_summary": "Sold SaaS-based clinical workflow tools — EMR modules, scheduling systems — to hospitals and ambulatory networks across the full sales cycle from prospecting through contract negotiation and customer success handoff.",
+    "bullets": [
+      "Sold SaaS-based clinical workflow tools to hospitals and ambulatory networks",
+      "Managed full sales cycle from prospecting to contract negotiation",
+      "Collaborated with implementation teams to ensure customer success",
+      "Led the rollout of Clinisoft's first cloud-based scheduling platform",
+      "Reduced onboarding time for new customers by 22% through process redesign"
+    ],
+    "achievements": [
+      "Closed $9.8M in new ARR over six years",
+      "Led rollout of Clinisoft's first cloud-based scheduling platform",
+      "Reduced new customer onboarding time by 22% through process redesign"
+    ],
+    "star_stories": [
+      {
+        "title": "Software Adoption at a 400-Bed Hospital",
+        "situation": "A 400-bed hospital struggled with OR scheduling inefficiencies that were costing time and money across every surgical service line.",
+        "task": "Demonstrate measurable operational improvement using Clinisoft's platform and convert a skeptical perioperative leadership team.",
+        "action": "Conducted workflow mapping sessions, built a structured pilot program, and partnered directly with perioperative leadership to co-design the implementation.",
+        "result": "Reduced OR turnover time by 11 minutes per case, which led to a full-system purchase across the hospital."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-joe-003",
+    "employer_name": "VascuCore Medical Technologies",
+    "job_title": "Senior Territory Manager — Advanced Surgical Devices",
+    "start_date": "2011",
+    "end_date": "2018",
+    "employment_type": "full-time",
+    "industry_tags": ["healthcare", "medical-devices", "surgical", "cardiovascular"],
+    "role_summary": "Managed a high-volume surgical territory across North Texas for a manufacturer of minimally invasive vascular and cardiac devices, supporting surgeons in cath labs, ORs, and hybrid suites. Averaged 132% to quota over seven years and won the President's Club Award four times.",
+    "bullets": [
+      "Managed a high-volume surgical territory across North Texas",
+      "Supported surgeons in cath labs, ORs, and hybrid suites",
+      "Conducted product in-service training for clinical staff",
+      "Developed quarterly business plans and competitive analyses",
+      "Launched three new product lines, achieving fastest regional adoption rate",
+      "Trained 200+ clinicians on advanced vascular closure techniques"
+    ],
+    "achievements": [
+      "Averaged 132% to quota over seven years",
+      "Launched three new product lines with fastest adoption rate in the region",
+      "Trained 200+ clinicians on advanced vascular closure techniques",
+      "Won the President's Club Award four times"
+    ],
+    "star_stories": [
+      {
+        "title": "Turnaround Territory — #23 to #3 Nationally",
+        "situation": "Inherited a territory ranked #23 of 24 nationally with declining sales and deteriorating surgeon relationships.",
+        "task": "Reverse the decline, rebuild surgeon engagement, and establish a credible competitive presence in the territory.",
+        "action": "Re-mapped all accounts by potential and relationship status, dramatically increased OR presence, and built a surgeon advisory council to rebuild trust and gather competitive intelligence.",
+        "result": "Territory rose to #3 nationally within 18 months and maintained top-5 status for five consecutive years."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-joe-004",
+    "employer_name": "Medisynex Diagnostics, Inc.",
+    "job_title": "Regional Sales Director — Western Gulf Region",
+    "start_date": "2018",
+    "end_date": null,
+    "employment_type": "full-time",
+    "industry_tags": ["healthcare", "diagnostics", "enterprise-sales", "IDN", "sales-leadership"],
+    "role_summary": "Led a 7-state region covering 140+ hospital accounts and 300+ outpatient clinics for a mid-market diagnostics manufacturer. Managed a team of 9 field reps, 2 clinical specialists, and 1 solutions engineer. Grew regional revenue from $42M to $88M (110% growth) and achieved the #1 region nationally for three consecutive years.",
+    "bullets": [
+      "Led a 7-state region covering 140+ hospital accounts and 300+ outpatient clinics",
+      "Managed a team of 9 field reps, 2 clinical specialists, and 1 solutions engineer",
+      "Directed enterprise sales cycles with IDNs, GPOs, and state health systems",
+      "Oversaw forecasting, pipeline management, and regional P&L accountability",
+      "Partnered with marketing and clinical affairs to launch new product lines",
+      "Reduced rep turnover from 38% to 8% through coaching and territory redesign"
+    ],
+    "achievements": [
+      "Grew regional revenue from $42M to $88M in five years (110% growth)",
+      "Achieved #1 region nationally for three consecutive years (2020–2022)",
+      "Secured a $14.2M multi-year IDN contract with GulfCare Health Partners",
+      "Reduced rep turnover from 38% to 8% through coaching and territory redesign"
+    ],
+    "star_stories": [
+      {
+        "title": "IDN Contract Win — $14.2M GulfCare Health Partners",
+        "situation": "GulfCare Health Partners sought to consolidate diagnostic platforms across 22 hospitals, with two entrenched competitors already embedded in the system.",
+        "task": "Position Medisynex as the system-wide standard and displace both competitors in a high-stakes, multi-stakeholder enterprise sales cycle.",
+        "action": "Built a cross-functional task force, delivered detailed ROI modeling tailored to each hospital's cost structure, coordinated 11 clinical evaluations across departments, and aligned executive stakeholders at both the IDN and facility level.",
+        "result": "Awarded a 5-year, $14.2M contract, displacing both competitors and increasing regional market share by 27%."
+      }
+    ]
+  }
+]

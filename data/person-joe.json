@@ -1,0 +1,26 @@
+{
+  "id": "joe-demo",
+  "full_name": "Joe Gahtlukkee",
+  "tagline": "21 Years of Healthcare Sales — Documented, Searchable, Ready",
+  "location": "Houston, TX",
+  "contact": {
+    "email": "joe.gahtlukkee@example.com",
+    "phone": "(555) 201-8890",
+    "linkedin": "LinkedIn.com/in/joegahtlukkee"
+  },
+  "summary": "Healthcare sales leader with 21 years of progressive experience driving revenue growth across medical devices, diagnostics, and enterprise clinical solutions. Known for building high-performing territories, rescuing underperforming regions, and leading complex multi-stakeholder sales cycles in hospitals, IDNs, and outpatient networks.",
+  "education": [
+    {
+      "institution": "University of North Texas — Denton, TX",
+      "degree": "B.S. in Health Services Administration",
+      "year": "2003"
+    }
+  ],
+  "certifications": [
+    "Certified Medical Sales Professional (CMSP)",
+    "HIPAA Compliance Certification",
+    "Certified Clinical Sales Specialist (CCSS)",
+    "Lean Six Sigma Yellow Belt"
+  ],
+  "note": "This is a fictional demo profile. All names, companies, and figures are invented for demonstration purposes."
+}
