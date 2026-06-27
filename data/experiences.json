@@ -1,0 +1,540 @@
+[
+  {
+    "experience_id": "exp-001",
+    "employer_name": "Corpus Christi Seafood Exchange",
+    "job_title": "Data Administrator",
+    "start_date": "1984",
+    "end_date": "1986",
+    "employment_type": "full-time",
+    "industry_tags": ["food-distribution", "data-management"],
+    "role_summary": "Maintained a home-grown database and sales system for a seafood distribution company, processing orders, packing lists, and inventory on an Apple/// with Business Basic.",
+    "bullets": [
+      "Maintained home-grown database and sales system on Apple/// with Business Basic",
+      "Processed sales orders, packing lists, and conducted inventory",
+      "Performed occasional hot-shot delivery"
+    ],
+    "achievements": [],
+    "star_stories": []
+  },
+  {
+    "experience_id": "exp-002",
+    "employer_name": "US Navy",
+    "job_title": "Personnelman",
+    "start_date": "1987",
+    "end_date": "1991",
+    "employment_type": "military",
+    "industry_tags": ["military", "operations", "database", "administration"],
+    "role_summary": "Served as a Personnelman supporting shipboard administrative systems, database development, and damage control readiness. Deployed globally including Operation Desert Storm.",
+    "bullets": [
+      "Developed database for tracking events aboard ship",
+      "Developed maintenance database to support shipboard operations",
+      "Designed and built a HazMat database in dBase, replacing a paper-based tracking system",
+      "Served as a member of the at-sea fire party (Long Beach Fire Department)",
+      "Played bass guitar for ship's band during deployments",
+      "Circumnavigated the globe (Around the World in 180 Days Cruise)"
+    ],
+    "achievements": [
+      "Operation Desert Storm (1991)",
+      "Operation Classic Resolve – 1989 Philippine Coup Attempt",
+      "Armed Forces Expeditionary Medal (1990)",
+      "Trained department in Damage Control for DC Olympics (2nd Place)"
+    ],
+    "star_stories": []
+  },
+  {
+    "experience_id": "exp-003",
+    "employer_name": "Texas A&M University–Corpus Christi",
+    "job_title": "Service Desk Analyst",
+    "start_date": "1994",
+    "end_date": "1995",
+    "employment_type": "full-time",
+    "industry_tags": ["higher-education", "IT-support"],
+    "role_summary": "Served as an inaugural member of a newly created helpdesk dedicated exclusively to faculty support, helping develop early support processes and workflows.",
+    "bullets": [
+      "Served as an inaugural member of a newly created helpdesk dedicated exclusively to faculty support",
+      "Assisted management in developing early support processes and workflows",
+      "Provided technical assistance for faculty hardware, software, and campus systems"
+    ],
+    "achievements": [],
+    "star_stories": []
+  },
+  {
+    "experience_id": "exp-004",
+    "employer_name": "Texas Attorney General",
+    "job_title": "Information Systems Support Specialist III/IV",
+    "start_date": "1996",
+    "end_date": "1998",
+    "employment_type": "full-time",
+    "industry_tags": ["government", "IT-support", "infrastructure"],
+    "role_summary": "Supported multiple offices across three regions of Texas, providing comprehensive technical support across Rumba mainframe interfaces, Windows, DOS, NetWare, and telephony systems during a major application development rollout.",
+    "bullets": [
+      "Supported multiple offices across three Texas regions including six field locations in Houston, a software development project in Austin, and the entire Rio Grande Valley from McAllen",
+      "Provided comprehensive technical support across Rumba mainframe interfaces, Windows, DOS, NetWare (v2/3/4), cabling, telephony, and printers",
+      "Ensured data integrity, access control, and system reliability across distributed offices",
+      "Partnered with development teams to support application design, testing, and deployment",
+      "Coordinated rollout activities with managing developers and attorneys during a major application development project in Austin",
+      "Oversaw the buildout of a technical training room used for multi-day training sessions",
+      "Transitioned between regional offices as project phases completed: McAllen → Austin → Houston"
+    ],
+    "achievements": [
+      "Served as the primary technical resource for the Rio Grande Valley region, providing end-to-end support for all field operations",
+      "Supported a next-generation Windows 95 application integrating mainframe access and automated courtroom document workflows",
+      "Ensured operational continuity across multiple offices during development, rollout, and field support phases"
+    ],
+    "star_stories": [
+      {
+        "title": "Training Room Buildout Electrical Failure",
+        "situation": "During the buildout of a new technical training room, each outlet was required to be on its own dedicated 20-amp circuit to support 28 PCs and seven laser printers. After construction, the outlets passed a basic spot-check and the room was cleared for use. On day one of a statewide three-day training session, powering on all equipment caused the entire room to lose power.",
+        "task": "Ensure the training room was operational for the statewide session, identify the root cause of the failure, and drive immediate remediation despite the contractor's initial resistance.",
+        "action": "Coordinated with Facilities to confirm the building's electrical system was functioning correctly — their check revealed the issue was isolated to the room. Investigated the outlet wiring and discovered that, despite the orange 'dedicated circuit' markings, the contractor had wired every outlet onto a single 20-amp circuit. When the contractor initially refused to return, escalated appropriately, reminding him the work was for the Texas Attorney General, which prompted him to arrive within the hour. Oversaw the corrective work and ensured each outlet was rewired to its own dedicated circuit.",
+        "result": "The room was fully operational by that afternoon, allowing the statewide training to proceed without cancellation or delay. Reinforced a lasting principle: never rely on spot-checks for infrastructure — always test the full operational load against actual requirements."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-005",
+    "employer_name": "Source 2000",
+    "job_title": "Contractor",
+    "start_date": "1998",
+    "end_date": "2001",
+    "employment_type": "contract",
+    "industry_tags": ["IT-support", "healthcare", "government", "oil-gas"],
+    "role_summary": "Provided multi-client desktop and systems support across Texas Children's Hospital, Houston Fire Department, Harris County Health Department, MW Kellogg, and KBR. Built imaging systems, performed server migrations, and earned a strong customer-first reputation across all assigned clients.",
+    "bullets": [
+      "Provided desktop support at Texas Children's Hospital, resolving hardware and software issues for clinical and administrative staff",
+      "Served as Systems Specialist for the Houston Fire Department, supporting fire stations and administrative offices across the city",
+      "Created an imaging system to standardize desktop deployments across multiple customer environments",
+      "Performed NetWare 3–4 migrations for the Houston/Harris County Health Department",
+      "Built new servers in the office, transferred data over the wire from field offices, and installed replacement servers onsite",
+      "Provided desktop support at MW Kellogg and later KBR during major organizational transitions",
+      "Repaired HP LaserJet printers by field-stripping units for component-level fixes",
+      "Repaired CRT monitors to extend hardware life and reduce replacement costs"
+    ],
+    "achievements": [
+      "Recognized for reliable, no-nonsense support with a strong customer-first reputation across all assigned clients"
+    ],
+    "star_stories": []
+  },
+  {
+    "experience_id": "exp-006",
+    "employer_name": "Halliburton",
+    "job_title": "Remote Desktop Support",
+    "start_date": "2001",
+    "end_date": "2003",
+    "employment_type": "full-time",
+    "industry_tags": ["oil-gas", "IT-support"],
+    "role_summary": "Provided remote and on-site support to smaller Halliburton facilities across the Houston area, diagnosing hardware issues and delivering field support when remote troubleshooting was insufficient.",
+    "bullets": [
+      "Provided remote and on-site support to smaller Halliburton facilities across the Houston area and surrounding regions",
+      "Diagnosed and resolved hardware issues including CRT displays, desktop systems, and peripheral equipment",
+      "Delivered field support when remote troubleshooting was insufficient, ensuring minimal downtime for critical operations",
+      "Maintained a reputation for practical, customer-first problem solving across multiple sites"
+    ],
+    "achievements": [],
+    "star_stories": [
+      {
+        "title": "CRT Failure in Orange, TX",
+        "situation": "A refinery user in Orange, Texas reported that his 24\" CRT monitor would not power on. He was frustrated, insistent that it was plugged in, and escalated the issue to the point that a site visit became unavoidable — requiring a long drive with my family in tow.",
+        "task": "Resolve the user's outage quickly and professionally, verify the root cause firsthand, and maintain composure despite the user's anger and the travel burden.",
+        "action": "Traveled to the refinery, checked in, and inspected the workstation. Within seconds, confirmed the issue: the monitor was simply unplugged. Plugged it in, powered it on, completed the paperwork, and closed the ticket without drama.",
+        "result": "Issue resolved immediately, user back online, refinery avoided unnecessary downtime. Reinforced a recurring theme: verify the basics, stay calm under pressure, and let the work speak for itself."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-007",
+    "employer_name": "Bering Drive Church of Christ",
+    "job_title": "Audio/Visual Director",
+    "start_date": "2002",
+    "end_date": "2005",
+    "employment_type": "volunteer",
+    "industry_tags": ["nonprofit", "AV", "training"],
+    "role_summary": "Provided volunteer technical leadership for Sunday morning services, overseeing installation of projectors, screens, and audio equipment, and training church members to operate systems reliably.",
+    "bullets": [
+      "Provided unpaid technical leadership to ensure smooth Sunday morning services",
+      "Oversaw installation of projectors and screens to modernize the worship center",
+      "Managed installation of new audio equipment including mixer, amplifier, and speakers",
+      "Trained church members to operate audio/visual systems reliably during services"
+    ],
+    "achievements": [],
+    "star_stories": []
+  },
+  {
+    "experience_id": "exp-008",
+    "employer_name": "Robert Half / Allied Waste (Contract)",
+    "job_title": "Contractor – Payroll Automation",
+    "start_date": "2007",
+    "end_date": "2008",
+    "employment_type": "contract",
+    "industry_tags": ["waste-management", "payroll", "automation", "database"],
+    "role_summary": "Automated a manual copy-paste payroll workflow and built a consolidated payroll database in Microsoft Access with an Excel front end, supporting ~50 commercial drivers earning $100K–$200K annually. The solution remained in production for ~3 years until the company merged.",
+    "bullets": [
+      "Automated a manual copy-paste payroll workflow in ~20 hours, eliminating repetitive weekly data entry for ~50 employees",
+      "Designed and built a consolidated payroll database in Microsoft Access with an Excel front end, avoiding new software costs for the client",
+      "Developed a custom vacation pay calculation system that averaged weekly pay across five trailing quarters to derive an OT-adjusted hourly vacation rate",
+      "Supported a workforce of ~50 commercial drivers earning $100K–$200K annually through heavy overtime structures",
+      "Delivered a solution that remained in production for ~3 years until the company merged"
+    ],
+    "achievements": [
+      "Eliminated manual payroll errors and delivered a fair vacation-rate calculation that drivers trusted",
+      "Solution remained in production for approximately 3 years — a strong indicator of stability and long-term value"
+    ],
+    "star_stories": [
+      {
+        "title": "Vacation Pay & Payroll Automation",
+        "situation": "A commercial driving workforce was earning six-figure incomes through heavy overtime, but their vacation pay was calculated only on their base hourly rate — not their OT-loaded earnings. Many drivers literally could not afford to take vacation. At the same time, the payroll process required staff to manually copy data into a fresh Excel workbook every week.",
+        "task": "Modernize the payroll workflow without new software purchases, automate the weekly data handling, and implement a fair vacation-rate calculation that reflected real earnings.",
+        "action": "Automated the weekly copy-paste workflow in Excel (~20 hours of development). Built a centralized Access database with an Excel front end to meet the 'no new software' constraint. Implemented a custom vacation-rate formula: 'Go back five quarters, find weekly pay, divide by 40.'",
+        "result": "Eliminated manual errors, standardized payroll processing, and delivered a fair vacation-rate calculation that drivers trusted. The system remained in production for approximately three years until the company merged."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-009",
+    "employer_name": "Mossy Nissan",
+    "job_title": "Sales Representative",
+    "start_date": "2007",
+    "end_date": "2008",
+    "employment_type": "full-time",
+    "industry_tags": ["automotive", "sales"],
+    "role_summary": "Matched customers with appropriate vehicles based on needs, budget, and inventory. Built rapport through active listening and maintained follow-up communication to support long-term relationships.",
+    "bullets": [
+      "Matched customers with appropriate vehicles based on needs, budget, and available inventory",
+      "Built rapport with diverse customers through active listening and personalized service",
+      "Maintained follow-up communication to support long-term customer relationships"
+    ],
+    "achievements": [],
+    "star_stories": [
+      {
+        "title": "The NASA Engineer Who Wanted 'Nothing Fancy'",
+        "situation": "My first customer was Leonid, a NASA engineer who arrived guarded, refused to shake my hand, and insisted he wanted 'a Murano with nothing fancy.' That exact trim didn't exist in our inventory.",
+        "task": "Understand what he truly needed, find a vehicle that met his requirements and budget, and build enough trust to turn a tense first interaction into a successful customer relationship.",
+        "action": "Located a used Murano that closely matched his request and invited him on a test drive. On the road, he relaxed and the conversation shifted from transactional to personal. After the sale, kept in touch by sending postcards written in Russian using early Google Translate.",
+        "result": "A few months later, Leonid returned and purchased a year-end model — turning a skeptical first-time buyer into a repeat customer."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-010",
+    "employer_name": "Zales",
+    "job_title": "Sales Representative",
+    "start_date": "2008",
+    "end_date": "2010",
+    "employment_type": "full-time",
+    "industry_tags": ["retail", "sales", "jewelry"],
+    "role_summary": "Matched customers with jewelry based on style, occasion, and budget. Used cold-approach sales techniques and built trust quickly in a high-touch retail environment.",
+    "bullets": [
+      "Matched customers with jewelry based on style, occasion, and budget",
+      "Engaged passersby with cold-approach sales by initiating conversations in the mall concourse",
+      "Built trust quickly in a high-touch retail environment"
+    ],
+    "achievements": [],
+    "star_stories": [
+      {
+        "title": "The Customer With the Cast & the Engagement Ring",
+        "situation": "A customer walked into the jewelry store with his arm in a cast. His body language made it clear he wasn't in the mood for a scripted pitch.",
+        "task": "Break the tension, build genuine rapport, and help him find the right engagement ring without making him feel 'sold to.'",
+        "action": "Instead of a canned opener, pointed at his cast and asked, 'What did you do?' We swapped injury stories — his from basketball, mine from the Navy — and the conversation shifted naturally into what he wanted for his fiancée.",
+        "result": "He purchased a $3,000 engagement ring, and the entire interaction felt effortless because it was rooted in connection, not sales pressure."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-011",
+    "employer_name": "Mustang Engineering",
+    "job_title": "Document Management Admin",
+    "start_date": "2008",
+    "end_date": "2010",
+    "employment_type": "full-time",
+    "industry_tags": ["oil-gas", "engineering", "document-management", "training"],
+    "role_summary": "Trained engineering staff and external clients on the Citadon EDMS, provided Tier 2–3 support, drove user adoption of digital workflows, and automated a manual metadata-prep task achieving a 60× efficiency gain.",
+    "bullets": [
+      "Trained engineering staff and external clients on the Citadon EDMS, delivering onsite sessions across Texas",
+      "Provided Tier 2–3 EDMS support including access issues, metadata inconsistencies, and workflow errors",
+      "Served as the operational bridge between engineering teams, document controllers, and IT",
+      "Drove user adoption of digital workflows through rapport-building, deskside coaching, and tailored training",
+      "Automated a repetitive 20-minute metadata-prep task down to ~20 seconds using a rapidly prototyped VBA script",
+      "Conducted unscripted UAT to uncover edge-case failures and usability issues missed by scripted testers"
+    ],
+    "achievements": [
+      "Achieved 60× efficiency gain on EDMS metadata-prep workflow (20 min → 20 sec)",
+      "Converted resistant senior engineers to digital markup workflows through personalized training approach",
+      "Became a trusted escalation point due to pattern recognition and rapid root-cause diagnosis"
+    ],
+    "star_stories": [
+      {
+        "title": "Converting the Old-School Engineers to Digital Markup",
+        "situation": "Many senior engineers refused to use Citadon's digital markup, preferring to print expensive D-size drawings, mark them up with colored pencils, and scan them back in.",
+        "task": "Increase adoption of the digital system and reduce waste without relying on mandates or top-down pressure.",
+        "action": "Met engineers at their desks, listened to their frustrations, and let them vent. One notoriously stubborn civil engineer muttered mid-class, 'All I need is my STUPID stamp.' Opened WordArt, created a dashed-border JPG with STUPID in stencil font, uploaded it to Citadon, and showed him how to place it on drawings.",
+        "result": "He erupted in laughter — and from that moment on, he was fully converted. Once he switched, others followed, reducing printing costs and speeding revision cycles across all disciplines."
+      },
+      {
+        "title": "EDMS Workflow Automation",
+        "situation": "Document controllers followed a repetitive, error-prone workflow — preparing metadata for upload required ~20 minutes of manual copy-paste work repeated constantly.",
+        "task": "Eliminate the manual metadata-prep work, reduce upload time, and improve accuracy without changing the EDMS or requiring new software.",
+        "action": "Volunteered to help document controllers with uploads to learn the workflow firsthand. Recognized the bottleneck immediately. Wrote the first working VBA script in ~10 minutes — faster than performing the manual process once. Later iterated to pull metadata directly from the upstream source.",
+        "result": "Cut a 20-minute task down to ~20 seconds — a 60× efficiency gain. Eliminated multiple human-error points and became the preferred workflow across the team."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-012",
+    "employer_name": "Baker Hughes",
+    "job_title": "Service Desk Analyst – SOLV",
+    "start_date": "2010",
+    "end_date": "2011",
+    "employment_type": "full-time",
+    "industry_tags": ["oil-gas", "IT-support", "service-desk"],
+    "role_summary": "Started as a 2-month contract supporting enterprise software rollout; selected for permanent hire based on service quality. Served as escalation point for high-frustration users ('angry elves') due to calm communication and rapid troubleshooting.",
+    "bullets": [
+      "Supported enterprise software rollout by contacting users and remotely deploying applications",
+      "Selected for permanent hire based on service quality, communication, and reliability",
+      "Served as escalation point for high-frustration users due to calm communication and rapid troubleshooting",
+      "Provided Tier-1 support for standard applications including MS Office, Exchange, and Windows"
+    ],
+    "achievements": [
+      "Selected for permanent hire after a 2-month contract based on service reputation",
+      "Earned referral to the Real-Time Operations Service Desk after assisting a stranded European RTOC manager in North Dakota"
+    ],
+    "star_stories": []
+  },
+  {
+    "experience_id": "exp-013",
+    "employer_name": "Baker Hughes",
+    "job_title": "Real-Time Operations Support",
+    "start_date": "2011",
+    "end_date": "2012",
+    "employment_type": "full-time",
+    "industry_tags": ["oil-gas", "real-time-operations", "service-desk", "SLA"],
+    "role_summary": "Monitored and maintained real-time data communications for offshore drilling rigs operating at ~$1M/day, maintaining a 99.99% uptime SLA (57 minutes of allowable downtime per year).",
+    "bullets": [
+      "Monitored and maintained real-time data communications for offshore drilling rigs operating at ~$1M/day",
+      "Maintained a 99.99% uptime SLA (57 minutes of allowable downtime per year)",
+      "Declared and led Major Incidents when uptime was threatened",
+      "Served as liaison between SOLV and BEACON during Major Incidents, uniquely positioned from having worked both sides"
+    ],
+    "achievements": [],
+    "star_stories": []
+  },
+  {
+    "experience_id": "exp-014",
+    "employer_name": "Baker Hughes",
+    "job_title": "Service Desk Manager / Real-Time Operations Service Desk Lead",
+    "start_date": "2012",
+    "end_date": "2016",
+    "employment_type": "full-time",
+    "industry_tags": ["oil-gas", "service-desk", "management", "SLA", "disaster-recovery"],
+    "role_summary": "Led global service desk operations across Houston, Aberdeen UK, and Kuala Lumpur supporting real-time drilling operations with a 99.99% uptime SLA. Designed DR plans, authored ISO-aligned SOPs, and drove the Entitlements system initiative that resolved a major IP lawsuit risk.",
+    "bullets": [
+      "Managed three global service desks (Houston, Aberdeen UK, Kuala Lumpur) with unified processes and 24/7 coverage",
+      "Oversaw SLA performance and queue health using trend analysis to guide staffing and training",
+      "Served as primary liaison between SOLV and BEACON during Major Incidents",
+      "Authored ISO-aligned SOPs and runbooks used in audits and certification reviews",
+      "Designed onboarding programs that reduced ramp time and improved first-contact resolution",
+      "Performed unscripted UAT to uncover failure modes missed by scripted testing",
+      "Facilitated clear, calm cross-team communication during escalated support events"
+    ],
+    "achievements": [
+      "Designed and validated a full disaster recovery and business continuity plan, adopted as the official emergency operations model",
+      "Drove design of the Entitlements web application, eliminating cross-company data exposure and resolving the underlying cause of a major IP lawsuit",
+      "Prevented churn of a multi-million-dollar client via multi-vendor .NET runtime failure resolution",
+      "Developed a two-day global sales training program added to the Baker Hughes training catalog and delivered globally"
+    ],
+    "star_stories": [
+      {
+        "title": "The Entitlements Crisis",
+        "situation": "WellLink RT originally licensed access per rig, meaning any engineer tied to that rig could see its real-time drilling data. When a rig changed ownership between two competing operators, users from the first company retained access to the second company's proprietary well data — resulting in a major IP lawsuit.",
+        "task": "Help eliminate the risk of cross-company data exposure by ensuring only the correct users could access only the wells they were entitled to, with rapid add/revoke capability and a full audit trail.",
+        "action": "Worked with the development team and product owners to help design and implement the Entitlements web application, shifting access control from manual internal processes to a customer-managed, automated entitlement system. Helped define data-segregation rules, mapped the old per-rig model into a per-user/per-well structure, and ensured ~10-minute propagation for access changes.",
+        "result": "Zero further incidents of unauthorized data visibility. 10-minute entitlement propagation (down from hours or days). Full auditability shifting liability away from the vendor. Compliance risk dropped dramatically, aligning WLRT with modern SaaS governance standards."
+      },
+      {
+        "title": "2014 Disaster Recovery Planning & Simulation",
+        "situation": "After a Gulf Coast winter storm prevented staff from reaching the office, Real-Time Operations faced a critical vulnerability: the Service Desk supported systems with a 99.99% uptime SLA but had no validated disaster recovery or continuity plan.",
+        "task": "Develop a complete disaster recovery and continuity plan and validate the model through a full-scale simulation.",
+        "action": "Designed a comprehensive DR plan including loaner laptops and cellular hotspots for key personnel, alternate meeting locations, and extended on-site operations protocols. In August 2014, led a full-scale simulation: key personnel relocated to a hotel conference room in Spring, TX; management remained at Aldine Westfield; all phones transferred to softphones; global monitoring and escalation workflows tested end-to-end.",
+        "result": "Simulation executed flawlessly and was adopted as the official emergency operations model for Real-Time Operations."
+      },
+      {
+        "title": "RTOC Phones Down (Major Incident)",
+        "situation": "While driving, received notification that all RTOC phones were down — a mission-critical outage for global real-time operations with a 99.99% uptime SLA.",
+        "task": "Restore communications immediately and coordinate the incident response.",
+        "action": "Pulled off the road, connected via hotspot, declared a Major Incident, forwarded Houston phones to Kuala Lumpur, and coordinated cross-team restoration from the car.",
+        "result": "Service restored within two hours, preventing escalation and maintaining operational continuity."
+      },
+      {
+        "title": "Benihana Diplomacy (Difficult Client Engineer)",
+        "situation": "One client engineer had a long-standing reputation for being difficult, and his language toward my frontline team had become increasingly abusive, affecting morale and escalating tension across the support relationship.",
+        "task": "Protect the frontline team, reset expectations with the client engineer, and restore a professional working relationship without damaging the broader account.",
+        "action": "Called him directly and set a boundary: 'If you want to cuss someone out, call me.' When behavior continued, escalated to a more personal approach — invited him to Benihana and over the hibachi grill delivered a direct, calm final warning: 'You need to treat my frontline crew with respect.'",
+        "result": "The abusive behavior stopped immediately and never returned. The relationship stabilized, the team felt protected, and the client engineer became cooperative going forward."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-015",
+    "employer_name": "Baker Hughes",
+    "job_title": "Pre-Sales Engineer",
+    "start_date": "2012",
+    "end_date": "2016",
+    "employment_type": "full-time",
+    "industry_tags": ["oil-gas", "pre-sales", "technical-sales", "training"],
+    "role_summary": "Supported global sales teams by delivering technical demos, workflow mapping, and customer-facing solution guidance for Baker Hughes' real-time drilling software suite. Developed and delivered a two-day global sales training program added to the official training catalog.",
+    "bullets": [
+      "Delivered technical demos, discovery sessions, and workflow mapping across the Americas for real-time drilling and wireline software",
+      "Translated customer operational needs into product configurations, display setups, and data-access workflows",
+      "Completed 6 weeks of formal domain training (geology, LWD, MWD) plus field visits to active drilling and wireline operations",
+      "Served as technical escalation point for sales managers during demos, trials, and competitive evaluations",
+      "Developed and delivered a two-day sales training program, later added to the Baker Hughes training catalog and delivered globally"
+    ],
+    "achievements": [
+      "Two-day global sales training program added to the official Baker Hughes training catalog",
+      "Resolved a multi-vendor .NET runtime failure that was threatening a multi-million-dollar client renewal",
+      "Earned six weeks of geology/LWD/MWD domain training — a significant investment by Baker Hughes in technical depth"
+    ],
+    "star_stories": [
+      {
+        "title": "Multi-Vendor .NET Runtime Failure (Contract-Saving Resolution)",
+        "situation": "A major enterprise client with a multi-million-dollar licensing agreement experienced recurring failures in the real-time drilling software. Leadership was questioning the product's viability and the renewal was at risk.",
+        "task": "Identify the root cause, coordinate all involved parties, and restore the client's confidence before the contract was jeopardized.",
+        "action": "Led a multi-week investigation involving internal engineering, the client's IT team, and the third-party vendor. Correlated logs and runtime behavior to isolate the issue to a non-backwards-compatible .NET runtime on the client's servers. Scheduled and facilitated a four-way escalation call with the client, their IT team, the vendor, and Microsoft support.",
+        "result": "Issue resolved during a three-hour live session, restoring full functionality. Prevented churn of a multi-million-dollar client and established a repeatable escalation model for future multi-vendor incidents."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-016",
+    "employer_name": "Process Solutions",
+    "job_title": "Technical Sales / Systems Analyst",
+    "start_date": "2017",
+    "end_date": "2020",
+    "employment_type": "full-time",
+    "industry_tags": ["instrumentation", "municipal", "CRM", "systems-integration"],
+    "role_summary": "Performed inside sales outreach for municipal water and wastewater systems while identifying critical workflow inefficiencies and leading a full migration to Zoho One, consolidating CRM, marketing automation, inventory, quoting, and website integration into a single unified platform.",
+    "bullets": [
+      "Performed inside sales outreach including cold calls to municipal and corporate prospects",
+      "Supported instrumentation and engineering services with a focus on municipal water and wastewater systems",
+      "Identified critical workflow and system inefficiencies across Zoho CRM, MailChimp, and QuickBooks",
+      "Led the full migration to Zoho One, consolidating CRM, marketing automation, inventory, quoting, and website integration",
+      "Reduced software costs by replacing three separate systems with one lower-cost, higher-functionality suite",
+      "Improved operational accuracy through centralized inventory, unified customer records, and integrated quoting workflows"
+    ],
+    "achievements": [
+      "Replaced three separate systems (Zoho CRM, MailChimp, QuickBooks) with a single unified Zoho One platform at lower cost",
+      "Eliminated data fragmentation, creating a single source of truth for customers, inventory, and quoting"
+    ],
+    "star_stories": [
+      {
+        "title": "Zoho One Migration",
+        "situation": "Process Solutions was running on a fragmented stack: Zoho CRM, MailChimp, and QuickBooks — each holding different slices of customer, inventory, and quoting data. Nothing talked to anything else, causing constant errors, duplicated work, and mismatched records.",
+        "task": "Identify the root causes of the workflow breakdowns and lead a full migration to a unified platform without increasing software spend.",
+        "action": "Mapped the entire customer-to-invoice workflow and identified where data was being duplicated, lost, or manually re-entered. Determined Zoho One could replace all three systems at lower cost. Led the full migration: rebuilt CRM structure, consolidated inventory, replaced MailChimp with Zoho Campaigns, implemented Zoho Books/Inventory for quoting, and integrated the website with CRM and inventory.",
+        "result": "Replaced three separate systems with one unified platform, reducing software costs, eliminating data fragmentation, and improving operational accuracy across sales, quoting, and customer communication."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-017",
+    "employer_name": "Domino's (Franchise Stores)",
+    "job_title": "Driver / Shift Lead",
+    "start_date": "2013",
+    "end_date": "2020",
+    "employment_type": "part-time",
+    "industry_tags": ["food-service", "operations", "management"],
+    "role_summary": "Started as a weekend driver, progressed to Shift Lead/Assistant Manager, and supported store operations through the 2020 COVID surge working 65–80 hour weeks.",
+    "bullets": [
+      "Delivered high-volume orders during peak periods while maintaining strong customer satisfaction",
+      "Supported store operations including prep, phones, and shift coverage",
+      "Demonstrated reliability and operational awareness that led to transition into management roles",
+      "Worked extended hours during COVID, sustaining 65–80 hour weeks during the 2020 surge"
+    ],
+    "achievements": [],
+    "star_stories": [
+      {
+        "title": "Domino's COVID Surge (65–80 Hour Weeks, 2020)",
+        "situation": "When COVID hit in early 2020, Domino's became one of the few food operations still open — and demand exploded overnight. Stores were overwhelmed, applicant flow collapsed, and staffing volatility became the norm.",
+        "task": "Help keep the store operational during the surge, maintain service levels despite extreme staffing shortages, and support the team through the most volatile period in Domino's modern history.",
+        "action": "Took on extended hours — often 65–80 hours per week. Shifted fluidly between roles: driver, insider, phones, prep, and shift coverage. Supported new hires, maintained consistent communication with leadership about staffing gaps and operational risks.",
+        "result": "Helped sustain store operations during the highest-volume, highest-stress period in Domino's history. Built a reputation for reliability and operational awareness that directly led to transition into management."
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-018",
+    "employer_name": "Domino's (Corporate Stores)",
+    "job_title": "General Manager in Training → General Manager",
+    "start_date": "2020",
+    "end_date": "2023",
+    "employment_type": "full-time",
+    "industry_tags": ["food-service", "operations", "management", "turnaround"],
+    "role_summary": "Led store operations turnaround by cross-training drivers to perform insider duties during peak periods, reducing delivery times from 50 to 20 minutes, increasing customer satisfaction from 6.8 to 9.2, and growing sales by 35%. Earned VP-level endorsement and the Chairman's Circle pin.",
+    "bullets": [
+      "Rebuilt the staffing model by cross-training drivers to perform insider duties during peak periods",
+      "Improved labor flexibility and workflow stability, resulting in dramatically reduced delivery times",
+      "Earned VP-level endorsement for operational innovation after demonstrating measurable improvements",
+      "Led store operations through COVID surge, sustaining performance under extreme workload and staffing pressure",
+      "Achieved top-tier operational metrics across delivery times, customer satisfaction, and sales"
+    ],
+    "achievements": [
+      "Reduced delivery times from 50 minutes to 20 minutes",
+      "Increased customer satisfaction from 6.8 to 9.2",
+      "Increased sales by 35%",
+      "Earned a five-star operations review",
+      "Awarded the Chairman's Circle pin for top-tier performance during COVID"
+    ],
+    "star_stories": [
+      {
+        "title": "Cross-Training the Store Back to Life",
+        "situation": "The real bottleneck wasn't drivers — it was insiders. Peak periods were chronically understaffed, delivery times were slipping, and customer satisfaction was falling. No applicant flow meant no ability to hire additional insiders.",
+        "task": "Stabilize peak-hour operations, reduce delivery times, and improve customer satisfaction without adding headcount.",
+        "action": "Cross-trained drivers to handle insider responsibilities during peak hours, creating a flexible labor pool that could shift instantly to wherever the pressure was highest. Local leadership resisted initially. A VP eventually visited, saw the model in action, and said 'If that works, keep doing it' — removing all resistance and formalizing the approach.",
+        "result": "Reduced delivery times from 50 minutes to 20 minutes. Increased customer satisfaction from 6.8 to 9.2. Increased sales by 35%. What began as a workaround became the store's operating model."
+      },
+      {
+        "title": "The Pinpoint Delivery Risk Assessment",
+        "situation": "During a company-wide All-In Call with 450–500 employees, leadership introduced Pinpoint Delivery — allowing customers to request delivery to GPS coordinates. No operational risk assessment had been discussed.",
+        "task": "Evaluate the potential operational, safety, and liability risks and raise concerns without slowing momentum or appearing resistant to innovation.",
+        "action": "When Q&A opened, asked forward-looking questions grounded in real-world experience: GPS accuracy concerns from UberEats experience; driver safety for after-dark remote-area deliveries; safeguards for unsafe or inaccessible locations.",
+        "result": "Questions surfaced unaddressed risks. Leadership acknowledged 'We hadn't considered that' and incorporated additional safety guidelines before expanding the feature. VP Rob Brooke began publicly recognizing my questions on calls: 'Of course it's Clay!'"
+      }
+    ]
+  },
+  {
+    "experience_id": "exp-019",
+    "employer_name": "Domino's (Corporate IT)",
+    "job_title": "IT Field Technician",
+    "start_date": "2024",
+    "end_date": "2026",
+    "employment_type": "full-time",
+    "industry_tags": ["food-service", "IT-support", "field-tech", "enterprise"],
+    "role_summary": "Provided on-site and remote IT support for all corporate Domino's stores across the Houston Metro (~8,500 sq miles), plus Las Vegas and Detroit. Led four enterprise-wide upgrade programs and restored operations after major weather events including a May 2024 derecho and Hurricane Beryl.",
+    "bullets": [
+      "Provided on-site and remote IT support for all corporate stores across Houston, Las Vegas, and Detroit markets",
+      "Prioritized daily routing based on geography, urgency, and operational impact",
+      "Trained above-store leadership to troubleshoot independently, reducing reliance on field dispatches",
+      "Delivered calm, structured communication between operators, field techs, and corporate support during live-impacting POS or network incidents",
+      "Built trust with non-technical stakeholders by explaining issues in plain language without losing technical accuracy"
+    ],
+    "achievements": [
+      "Led four enterprise-wide upgrade programs: full network equipment refresh, new phone system deployment, new POS technology installation, and rolling server replacements",
+      "Restored operations after the May 2024 derecho (34 of 79 stores offline) and Hurricane Beryl (54 of 79 stores offline)"
+    ],
+    "star_stories": [
+      {
+        "title": "Trial by Fire: May 2024 Derecho & Hurricane Beryl",
+        "situation": "Promoted on May 1, 2024. Two weeks later, a powerful derecho tore through the northern Houston metro, knocking 34 of 79 corporate stores offline at Thursday rush hour. Two months later, Hurricane Beryl struck the southern market, taking 54 of 79 stores offline.",
+        "task": "Restore store operations as quickly and safely as possible, prioritize recovery across dozens of impacted locations, and maintain business continuity during two major regional disasters — all while still new to the role.",
+        "action": "Logged in immediately during the derecho to assess power vs. internet outages. Coordinated with the market director to prioritize restoration by safety, revenue impact, and operational readiness. Worked 16-hour days Friday and Saturday plus 5 hours Sunday. When car starter failed, rented a car to continue field coverage without interruption. After Beryl, covered southern stores as soon as conditions were safe.",
+        "result": "Rapidly restored operations across dozens of stores during two major regional disasters. Minimized downtime during the highest-revenue windows of the week. Manager in Ann Arbor said: 'Welcome to the team — trial by fire.'"
+      },
+      {
+        "title": "Domino's POS Upgrade (Software-Driven Hardware Lifecycle Shift)",
+        "situation": "In 2025, a new POS rollout introduced web-based interface and modern browser requirements. Previously stable legacy hardware — printers, VGA-only displays, older thin clients — began failing or becoming incompatible. Store operations slowed and outages increased across 79 corporate locations.",
+        "task": "Identify the root cause of the failures, assess operational impact, and coordinate a hardware remediation plan to keep stores online throughout the rollout.",
+        "action": "Analyzed failure patterns and correlated them with the new POS platform's browser and OS requirements. Identified that the web-based POS deprecated legacy peripherals and endpoints. Communicated the full software → hardware dependency chain to above-store leadership. Prioritized stores by operational impact and coordinated replacements during low-volume windows.",
+        "result": "Stabilized store operations during the rollout by proactively replacing incompatible hardware. Reduced unplanned outages and improved POS reliability across all 79 corporate stores. Established a repeatable readiness-assessment process for evaluating hardware before major software deployments."
+      }
+    ]
+  }
+]
